@@ -1,0 +1,60 @@
+.ww{
+    width: 100%;
+
+    .triangle{
+        position: relative;
+        z-index: -1;
+
+        .td{
+            position: absolute;
+            right: 0%;
+            top: 80px;
+            width: 0;
+            height: 0;
+            border-bottom: 200px solid green;
+            border-left: 200px solid transparent;
+        }
+
+        .ti{
+            position: absolute;
+            left: 0;
+            top: 200px;
+            width: 0;
+            height: 0;
+            border-top: 200px solid goldenrod;
+            border-right: 200px solid transparent;
+        }
+    }
+
+    .box{
+        width: 92%;
+        height: auto;
+        z-index: 999;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+        background-color: aliceblue;
+    }
+
+    .btn_div{
+        display: flex;
+        margin-top: 20px;
+        font-size: 30px;
+
+        .btn{
+            background-color: green;
+            padding: 20px 80px;
+            color: aliceblue;
+            font-weight: 600;
+            margin-right: auto;
+            margin-left: auto;
+            font-size: 30px;
+
+        }
+    }
+
+}

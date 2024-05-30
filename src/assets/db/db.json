@@ -1,0 +1,46 @@
+{
+    "database": "productos.bd",
+    "version": 1,
+    "encrypted": false,
+    "mode": "full",
+    "tables": [
+       
+        {
+            "name": "productos",
+            "schema": [
+                {
+                    "column": "presupuesto",
+                    "values": "TEXT NOT NULL"
+                },
+                {
+                    "column": "unidad",
+                    "values": "TEXT NOT NULL"
+                },
+                {
+                    "column": "producto",
+                    "values": "TEXT NOT NULL"
+                },
+                {
+                    "column": "cantidad",
+                    "values": "INTEGER NOT NULL"
+                },
+                {
+                    "column": "valor_unitario",
+                    "values": "REAL NOT NULL"
+                },
+                {
+                    "column": "valor_total",
+                    "values": "REAL NOT NULL"
+                },
+                {
+                    "column": "fecha_adquisicion",
+                    "values": "TEXT NOT NULL"
+                },
+                {
+                    "column": "proveedor",
+                    "values": "TEXT NOT NULL"
+                }
+            ]
+        }
+    ]
+}
